@@ -11,7 +11,7 @@ import SwiftUI
 struct BreatheApp: App {
     var body: some Scene {
         WindowGroup {
-            AnimatedDotView()
+            AppView()
         }
     }
 }
