@@ -71,6 +71,7 @@ struct StartView: View {
                          }
                      }
             }
+            
             Button("Begin") {
                 currentPage = Pages.BreathePage
             }

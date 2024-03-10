@@ -18,7 +18,13 @@ struct AppView: View {
                     dotAnimationDuration: self.$dotAnimationDuration
                 )
             case .BreathePage:
-                BreatheView(currentPage: self.$currentPage)
+                BreatheView(
+                    currentPage: self.$currentPage,
+                    dotScale: self.$dotScale,
+                    dotX: self.$dotX,
+                    dotY: self.$dotY,
+                    dotAnimationDuration: self.$dotAnimationDuration
+                )
             case .EndPage:
                 EndView(currentPage: self.$currentPage)
         }
