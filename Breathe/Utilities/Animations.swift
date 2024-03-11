@@ -1,5 +1,5 @@
 enum Animations {
-    case BreatheIn;
-    case BreatheOut;
-    case Bounce;
+    case BreatheIn
+    case BreatheOut
+    case Bounce
 }

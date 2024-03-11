@@ -17,6 +17,8 @@
 		0367CDB52B99747C00BD4A42 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB42B99747C00BD4A42 /* StartView.swift */; };
 		0367CDB72B99748E00BD4A42 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB62B99748E00BD4A42 /* EndView.swift */; };
 		0367CDB92B9974CA00BD4A42 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB82B9974CA00BD4A42 /* BreatheView.swift */; };
+		037B368E2B9EA2C800B754F7 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B368D2B9EA2C800B754F7 /* DotView.swift */; };
+		037B36902B9EADB600B754F7 /* DotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B368F2B9EADB600B754F7 /* DotState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0367CDB42B99747C00BD4A42 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		0367CDB62B99748E00BD4A42 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		0367CDB82B9974CA00BD4A42 /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		037B368D2B9EA2C800B754F7 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		037B368F2B9EADB600B754F7 /* DotState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 				0367CDB42B99747C00BD4A42 /* StartView.swift */,
 				0367CDB62B99748E00BD4A42 /* EndView.swift */,
 				0367CDB82B9974CA00BD4A42 /* BreatheView.swift */,
+				037B368D2B9EA2C800B754F7 /* DotView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 				0367CDAD2B9971D600BD4A42 /* Pages.swift */,
 				0367CDAF2B99723300BD4A42 /* Animations.swift */,
 				0367CDB12B9972BE00BD4A42 /* CustomColors.swift */,
+				037B368F2B9EADB600B754F7 /* DotState.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 			files = (
 				0367CDB92B9974CA00BD4A42 /* BreatheView.swift in Sources */,
 				0367CDA62B97FBCB00BD4A42 /* AppView.swift in Sources */,
+				037B368E2B9EA2C800B754F7 /* DotView.swift in Sources */,
 				0367CDB22B9972BE00BD4A42 /* CustomColors.swift in Sources */,
 				0367CD972B97FAAB00BD4A42 /* BreatheApp.swift in Sources */,
+				037B36902B9EADB600B754F7 /* DotState.swift in Sources */,
 				0367CDB52B99747C00BD4A42 /* StartView.swift in Sources */,
 				0367CDB02B99723300BD4A42 /* Animations.swift in Sources */,
 				0367CDAE2B9971D600BD4A42 /* Pages.swift in Sources */,

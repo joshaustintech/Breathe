@@ -1,5 +1,5 @@
 enum Pages {
-    case StartPage;
-    case BreathePage;
-    case EndPage;
+    case StartPage
+    case BreathePage
+    case EndPage
 }
