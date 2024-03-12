@@ -11,14 +11,10 @@
 		0367CD9B2B97FAAE00BD4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0367CD9A2B97FAAE00BD4A42 /* Assets.xcassets */; };
 		0367CD9F2B97FAAE00BD4A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0367CD9E2B97FAAE00BD4A42 /* Preview Assets.xcassets */; };
 		0367CDA62B97FBCB00BD4A42 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDA52B97FBCB00BD4A42 /* AppView.swift */; };
-		0367CDAE2B9971D600BD4A42 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDAD2B9971D600BD4A42 /* Pages.swift */; };
-		0367CDB02B99723300BD4A42 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDAF2B99723300BD4A42 /* Animations.swift */; };
+		0367CDAE2B9971D600BD4A42 /* ViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDAD2B9971D600BD4A42 /* ViewStates.swift */; };
 		0367CDB22B9972BE00BD4A42 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB12B9972BE00BD4A42 /* CustomColors.swift */; };
-		0367CDB52B99747C00BD4A42 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB42B99747C00BD4A42 /* StartView.swift */; };
-		0367CDB72B99748E00BD4A42 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB62B99748E00BD4A42 /* EndView.swift */; };
-		0367CDB92B9974CA00BD4A42 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367CDB82B9974CA00BD4A42 /* BreatheView.swift */; };
-		037B368E2B9EA2C800B754F7 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B368D2B9EA2C800B754F7 /* DotView.swift */; };
-		037B36902B9EADB600B754F7 /* DotState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B368F2B9EADB600B754F7 /* DotState.swift */; };
+		037B36962B9FDFD500B754F7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B36952B9FDFD500B754F7 /* TimerView.swift */; };
+		037B36982B9FDFF200B754F7 /* TransitionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B36972B9FDFF200B754F7 /* TransitionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +24,10 @@
 		0367CD9C2B97FAAE00BD4A42 /* Breathe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breathe.entitlements; sourceTree = "<group>"; };
 		0367CD9E2B97FAAE00BD4A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0367CDA52B97FBCB00BD4A42 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		0367CDAD2B9971D600BD4A42 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
-		0367CDAF2B99723300BD4A42 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		0367CDAD2B9971D600BD4A42 /* ViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStates.swift; sourceTree = "<group>"; };
 		0367CDB12B9972BE00BD4A42 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
-		0367CDB42B99747C00BD4A42 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		0367CDB62B99748E00BD4A42 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
-		0367CDB82B9974CA00BD4A42 /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
-		037B368D2B9EA2C800B754F7 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
-		037B368F2B9EADB600B754F7 /* DotState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotState.swift; sourceTree = "<group>"; };
+		037B36952B9FDFD500B754F7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		037B36972B9FDFF200B754F7 /* TransitionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				0367CDA52B97FBCB00BD4A42 /* AppView.swift */,
-				0367CDB42B99747C00BD4A42 /* StartView.swift */,
-				0367CDB62B99748E00BD4A42 /* EndView.swift */,
-				0367CDB82B9974CA00BD4A42 /* BreatheView.swift */,
-				037B368D2B9EA2C800B754F7 /* DotView.swift */,
+				037B36952B9FDFD500B754F7 /* TimerView.swift */,
+				037B36972B9FDFF200B754F7 /* TransitionButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,10 +91,8 @@
 		0367CDAC2B99708800BD4A42 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				0367CDAD2B9971D600BD4A42 /* Pages.swift */,
-				0367CDAF2B99723300BD4A42 /* Animations.swift */,
+				0367CDAD2B9971D600BD4A42 /* ViewStates.swift */,
 				0367CDB12B9972BE00BD4A42 /* CustomColors.swift */,
-				037B368F2B9EADB600B754F7 /* DotState.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -137,7 +125,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					0367CD922B97FAAB00BD4A42 = {
 						CreatedOnToolsVersion = 15.2;
@@ -179,16 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0367CDB92B9974CA00BD4A42 /* BreatheView.swift in Sources */,
+				037B36962B9FDFD500B754F7 /* TimerView.swift in Sources */,
 				0367CDA62B97FBCB00BD4A42 /* AppView.swift in Sources */,
-				037B368E2B9EA2C800B754F7 /* DotView.swift in Sources */,
 				0367CDB22B9972BE00BD4A42 /* CustomColors.swift in Sources */,
 				0367CD972B97FAAB00BD4A42 /* BreatheApp.swift in Sources */,
-				037B36902B9EADB600B754F7 /* DotState.swift in Sources */,
-				0367CDB52B99747C00BD4A42 /* StartView.swift in Sources */,
-				0367CDB02B99723300BD4A42 /* Animations.swift in Sources */,
-				0367CDAE2B9971D600BD4A42 /* Pages.swift in Sources */,
-				0367CDB72B99748E00BD4A42 /* EndView.swift in Sources */,
+				0367CDAE2B9971D600BD4A42 /* ViewStates.swift in Sources */,
+				037B36982B9FDFF200B754F7 /* TransitionButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +213,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -290,6 +275,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -319,8 +305,10 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Breathe/Preview Content\"";
 				DEVELOPMENT_TEAM = 668GFKS7B9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -359,8 +347,10 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Breathe/Preview Content\"";
 				DEVELOPMENT_TEAM = 668GFKS7B9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
