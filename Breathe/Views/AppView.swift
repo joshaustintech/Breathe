@@ -33,9 +33,29 @@ struct AppView: View {
                         .offset(y: phase.isBouncing ? -(geometry.size.height / 3) : 0.0)
                         .scaleEffect(phase.scale)
                 } animation: { phase in
-                        .easeInOut(duration: phase.duration)
-                        .repeatForever(autoreverses: phase.isBouncing)
+                    switch currentViewState {
+                    case .Starting:
+                            .bouncy(duration: 2)
+                            .repeatCount(1, autoreverses: true)
+                    case .Breathing:
+                            .easeInOut(duration: 6)
+                            .repeatCount(20, autoreverses: true)
+                    case .Reviewing:
+                            .bouncy(duration: 1)
+                            .repeatCount(2, autoreverses: true)
+                    }
                 }
+            TransitionButtonView(
+                currentViewState: $currentViewState,
+                currentTitleText: $currentText,
+                foregroundColor: $foregroundColor,
+                backgroundColor: $backgroundColor,
+                accentColor: $accentColor
+            )
+            .position(
+                x: geometry.size.width / 2,
+                y: geometry.size.height - (geometry.size.height / 8)
+            )
         }
         .background(backgroundColor)
     }
